@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- FAVICON -->
+  <link rel="icon" href="img/icon.jpg" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+  <script src="js/main.js"></script>
+
+  <title>INFOCHIM</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.jpg" width="50" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link font1 roundedborder border-dark" href="#"><b>ACASĂ</b></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle font1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            LECȚII
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#" id="listaIstorieApa">O SCURTĂ ISTORIE A APEI DIN IAȘI</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" id="listaProprFizApa">PROPRIETĂȚILE FIZICE ALE APEI</a>
+            <a class="dropdown-item" href="#" id="listaProprSolvApa">PROPRIETĂȚILE DE SOLVENT ALE APEI</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" id="listaCompChimApa">COMPOZIŢIA CHIMICĂ A APEI</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" id="listaPoluareApa">POLUAREA, TRATAREA SI EPURAREA APEI</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" id="listaEfecte">EFECTE NEGATIVE ASUPRA OMULUI</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <div class="font1">
+            <a class="nav-link" href="html/sectiuneFilme.html"><b>SECȚIUNE FILME</b></a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <div class="font1">
+            <a class="nav-link" href="html/maiMult.html"><b>DACĂ VREI SĂ ȘTII MAI MULT</b></a>
+          </div>
+        </li>
+      </ul>
+      </form>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="col" style="background-color: rgb(54,70,93)">
+      <h1 class="text-center text-light font1">Apa - sursa vieții</h1>
+
+      <div class="font2">
+        <h3 class="culoareGri" style=" text-indent: 2em;">
+          Din punct de vedere chimic, apa (H<sub>2</sub>O) este un oxid de hidrogen. În
+          constituţia unei molecule de apă intră doi atomi de hidrogen şi un atom de
+          oxigen, uniţi prin legături covalente. Timp de secole, apa a fost considerată un
+          element chimic de sine stătător.
+        </h3>
+        <img class="image-center" style="width: 25%" src="gif/robinet.gif">
+      </div>
+    </div>
+    <div class="col bg-lighter">
+      <h1 align="center" class="font1 pb-4 pt-4" id="istorieApa">O SCURTĂ ISTORIE A APEI DIN IAȘI</h1>
+      <div class="row border-top border-dark">
+        <div class="col border-right border-dark">
+          <h3 class="text-center" style="color:deepskyblue">ÎNCEPUTURILE</h3>
+          <div class="div-center">
+            <table>
+              <tr class="border-down border-dark">
+                <td class="border-right border-dark">
+                  <p class="center pr-4">1408</p>
+                </td>
+                <td>
+                  <p style=" text-indent: 2em;">Atestare documentară a Iaşiului printr-un document emis la Curtea lui
+                    Alexandru cel Bun. La acea dată
+                    alimentarea cu apă se realiza din izvoare neamenajate sau din uluce, budăi, şi fântâni.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="border-right border-dark">
+                  <p class="center pr-4">1654</p>
+                </td>
+                <td>
+                  <p style=" text-indent: 2em;">Existau la Iaşi captări de ape subterane şi o baie publică, prima
+                    de acest fel din ţară. </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="border-right border-dark">
+                  <p class="center pr-4">1729</p>
+                </td>
+                <td>
+                  <p style=" text-indent: 2em;">„Iaşul duce mare lipsă de apă de băut [...], s-a hotărât să înlăture
+                    şi
+                    acest neajuns al lipsei de apă. Cu multe cheltuieli au adus apă limpede şi bună de băut şi a zidit
+                    şi trei fântâni în faţa curţii […]” Cronica Ghiculeştilor.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="col" style="display: flex">
+          <div class="my-auto">
+            <img class="center" src="img/pozaWord1.png">
+            <p align="center"><b>Sacagiu</b></p>
+            <p style="width:50%" class="center" align="center">fotografie de epocă preluată din "Lungul drum al apei către
+              Iaşi" de N. Peiu şi D.
+              Simionescu
+              , ed. Gama, Iaşi, 1999
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row border-top border-dark">
+        <div class="col border-right border-dark" style="display: flex">
+          <div class="my-auto">
+            <img src="img/pozaWord2.png" class="center">
+            <p align="center"><b>Aparul</b></p>
+            <p style="width:50%" class="center" align="center">N. Peiu şi D. Simionescu,
+              "Lungul drum al apei către Iaşi", ed. Gama, Iaşi, 1999
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="div-center">
+            <table>
+              <tr class="border-down border-dark">
+                <td class="border-right border-dark">
+                  <p class="center pr-4">1774-1777</p>
+                </td>
+                <td>
+                  <p style=" text-indent: 2em;">Prinţul Grigore Alexandru Ghica realizează o serie de fântâni publice
+                    şi măreşte debitele vechilor izvoare.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="border-right border-dark">
+                  <p class="center pr-4">1853</p>
+                </td>
+                <td>
+                  <p style=" text-indent: 2em;">Se înfiinţează Ministerul Trebilor din Nlăuntru, apoi Ministerul
+                    Lucrărilor Publice.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="border-right border-dark">
+                  <p class="center pr-4">1865-1872</p>
+                </td>
+                <td>
+                  <p style=" text-indent: 2em;">Serviciul Apelor trece de la Ministerul Lucrărilor Publice în
+                    subordinea Primăriei şi se fac primele încercări de alimentare cu apă a oraşului din surse mai
+                    îndepărtate.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="border-right border-dark">
+                  <p class="center pr-4">1878-1884</p>
+                </td>
+                <td>
+                  <p style=" text-indent: 2em;">În paralel cu extinderea lucrărilor de alimentare cu apă se realizează
+                    și primele lucrări de canalizare.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="border-right border-dark">
+                  <p class="center pr-4">1898-1911</p>
+                </td>
+                <td>
+                  <p style=" text-indent: 2em;">Inginerul W. H. Lindley realizează studii hidrogeologice şi propune
+                    alimentarea cu apă a oraşului Iaşi din dreptul comunei Timişeşti, la confluenta Văii Nemţişorului
+                    cu Valea Moldovei, având ca sursă râul Ozana. Captarea constă într-un dren cu adâncimea de cca. 14
+                    m, de unde apa ajunge gravitaţional printr-o conductă alcătuită aproape în totalitate din fontă, a
+                    doua din Europa la acea vreme, ca debit şi ca lungime, asigurându-se în medie 10.000-30.000 m3 apă
+                    / zi. Această lucrare constituie începutul modernizării sistemului de alimentare cu apa a
+                    municipiului Iaşi (mai 1911).</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <img class="image-center" src="img/istorieApa.png">
+    </div>
+    <div class="col pb-4" style="color:white; background-color: rgb(54,70,93)">
+      <h1 class="text-light text-center border-bottom border-light font1 mb-0 pt-4 pb-4" id="proprFizApa">
+        PROPRIETĂȚILE FIZICE ALE APEI</h1>
+
+      <div class="row">
+        <div class="col border-right border-light">
+          <div class="font2">
+            <h2 class="text-light text-center">ANOMALII DE FAZĂ</h2>
+            <p>- Apa are un punct de topire anormal de mare. <br>
+              - Punctul de fierbere a apei are o valoare anormal de mare<br>
+              - Apa solidă există într-o varietate de structuri cristaline şi metastabile<br>
+              - Apa lichidă poate fi supraîncălzită uşor.<br>
+              - Vibraţiile apei calde sunt mai lungi decât cele ale apei reci.</p>
+          </div>
+        </div>
+        <div class="col border-right border-light">
+          <div class="font2">
+            <h2 class="text-light text-center">ANOMALII DE DENSITATE</h2>
+            <p>- Densitatea gheţii creşte prin încălzire (până la 70K) <br>
+              - La topire,volumul apei scade.<br>
+              - Presiunea reduce punctul de topire a gheţii. <br>
+              - La suprafaţă apa este mai densă decât în adâncime. <br>
+              - Presiunea reduce temperatura la care densitatea este maximă. <br>
+            </p>
+          </div>
+        </div>
+        <div class="col border-right border-light">
+          <div class="font2">
+            <h2 class="text-light text-center">ANOMALII DE MATERIAL</h2>
+            <p>
+              - Nici o soluţie apoasă nu este ideală.<br>
+              - Substanţele dizolvate afectează diferit densitatea şi vâscozitatea apei. <br>
+              - Conductibilitatea electrică a apei creşte şi atinge un maxim de
+              aproximativ 230 °C. <br>
+              - La presiune înaltă, respingerea dintre moleculele de apă în mişcare
+              este amplificată prin creşterea presiunii.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="font2">
+            <h2 class="text-light text-center">ANOMALII TERMODINAMICE</h2>
+            <p>- Căldura de topire variază cu temperatura şi prezintă un maxim de
+              aproximativ 170 °C.<br>
+              - Apa are o capacitate calorică specifică de două ori mai mare decât cea a
+              gheţii sau a aburului.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <img class="image-center pt-4" src="gif/fizicaApa.gif">
+    </div>
+    <div class="col bg-lighter">
+      <h1 align="center" class="font1 pt-4 pb-4 text-dark" id="proprSolvApa">PROPRIETĂȚILE DE SOLVENT ALE APEI</h1>
+      <div class="font2">
+        <p class="text-dark" style="font-size:25px; text-indent: 2em;">Apa este adesea considerată solvent universal,
+          deoarece este
+          capabilă să dizolve o gama extrem de variată de compuși, de la zaharuri la
+          săruri, de la ADN la hidrogen. Substanțele care se dizolvă în apă se numesc
+          hidrofile; combinațiile care nu se dizolvă în apă sunt denumite hidrofobe. În
+          condițiile în care majoritatea reacțiilor biochimice au loc în mediul apos din
+          fiecare celulă unde sunt dizolvăți participanții la reacții, proprietățile de solvent
+          ale apei sunt vitale pentru toate organismele vii.
+          Pe de altă parte, abilitatea dizolvantă a apei este cauza pentru care
+          poluarea apei este atât de persuaziva. Această afirmație este justificată prin
+          faptul că în apă se poate dizolvă aproape orice substanță, fie ea din categoria
+          pesticidelor, erbicidelor, a deșeurilor industriale, produselor secundare etc.,
+          sau a altor compusilor potențial periculoși.</p>
+        <img src="gif/solvent.gif" class="image-center pt-4 pb-4">
+      </div>
+    </div>
+    <div class="col" style="color:white; background-color: rgb(54,70,93)">
+      <h1 align="center" class="font1 pt-4 pb-4 text-light" id="compChimApa">COMPOZIȚIA CHIMICĂ A APEI</h1>
+
+      <h3>PROPRIETĂȚILE ACIDO – BAZICE ALE APEI</h3>
+      <div class="font2">
+        <p class="text-light" style="font-size:25px;">
+          &emsp; Moleculele de apă au un caracter dual, astfel incât în echilibrele acido-bazice pot funcționa: <br>
+          <br>
+          &raquo; ca generator de protoni: H<sub>2</sub>O ⇆ H<sup>+</sup>
+          + OH<sup>-</sup> (acid)<br><br>
+          &raquo; ca și acceptori de protoni H<sub>2</sub>O + H<sup>+</sup> ⇆ H<sub>3</sub>O<sup>+</sup>
+          <br><br>
+          &emsp; Pentru o exprimare mai comodă a concentrației în ioni de hidrogen sau de hidroxil, Sørensen a introdus,
+          în anul 1909, in terminologia chimică, noțiunea de pH sau exponent de hidrogen. pH-ul se definește ca
+          logaritmul
+          zecimal cu semn negativ al concentrației ionilor de hidrogen:<br> pH = - lg[H<sup>+</sup>]
+        </p>
+        <img class="image-center pb-4 pt-4" src="img/phScale.jpg" style="width:65%">
+
+        <p class="text-light pb-4" style="font-size:25px;">
+          &emsp; pH -ul apei este un factor extrem de important, care dictează capacitatea de reactivitate a apei,
+          agresivitatea acesteia si capacitatea apei de a se constitui în medii
+          pentru dezvoltarea diferitelor organisme acvatice.
+        </p>
+        <br>
+      </div>
+    </div>
+    <div class="col bg-lighter">
+      <h1 align="center" class="font1 pt-4 pb-4" id="poluareApa">POLUAREA, TRATAREA SI EPURAREA APEI</h1>
+      <div class="font2">
+        <p class="text-dark pb-4" style="font-size:25px;">
+          &emsp; Poluarea apei reprezintă orice modificare a compoziţiei sau calităţii ei, astfel încât aceasta să
+          devină
+          mai
+          puţin adecvată tuturor, sau anumitor, utilizări ale sale.
+          Protecţia calităţii apei constituie păstrarea, respectiv îmbunătăţirea caracteristicilor fizico-chimice şi
+          biologice ale apelor pentru gospodărirea cât mai eficientă a acestora.
+          <br><br>
+          &emsp; Deoarece poluanţii solizi, lichizi sau gazoşi ajung în apele naturale direct, dar mai ales prin
+          intermediul
+          apelor uzate, sursele de poluare a apei sunt multiple.
+          Clasificarea surselor de poluare a apei se face după :
+        </p>
+        <div class="row">
+          <div class="col border-right border-dark" style="font-size:25px;">
+            <p>
+              &emsp; 1. Acţiunea poluanţilor în timp. După acest criteriu distingem următoarele surse:<br><br>
+              &emsp; a) continue (canalizarea unui oraş, canalizările instalaţiilor industriale);<br>
+              &emsp; b) discontinue temporare sau temporar mobile (canalizări ale unor instalaţii şi obiective care
+              funcţionează
+              sezonier, nave, locuinţe, autovehicule, colonii sezoniere etc.) ;<br>
+              &emsp; c) accidentale (avarierea instalaţiilor,rezervoarelor,conductelor).<br>
+            </p>
+          </div>
+          <div class="col pl-2" style="font-size:25px;">
+            <p>
+              &emsp; 2. Provenienţa poluanţilor. Acest criteriu împarte sursele de poluare a apei în: <br> <br>
+              &emsp; a) sursele de poluare organizate: <br>
+              &emsp; &emsp; • surse de poluare cu ape reziduale menajere; <br>
+              &emsp; &emsp; • surse de poluare cu ape reziduale industriale. <br>
+              &emsp; b) sursele de poluare neorganizate: <br>
+              &emsp; &emsp; • apele meteorice; <br>
+              &emsp; &emsp; • centrele populate amplasate în apropierea cursurilor de apă. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col" style="background-color: rgb(54,70,93)">
+      <h1 align="center" class="font1 text-light pt-4 pb-4" id="efecte">EFECTE NEGATIVE ASUPRA OMULUI</h1>
+      <div class="font1">
+        <p style="font-size:24px;" class="text-light">
+          &emsp; Majoritatea bolilor din organism sunt cauzate de faptul că oamenii nu beau suficientă apă sau apa baută
+          nu are
+          cele mai bune calităţi.
+          Metalele grele sunt cunoscute ca fiind foarte puţin mobile, ceea ce înseamnă, cu alte cuvinte, că odată ajunse
+          într-un ecosistem se elimină extrem de greu din acesta.<br>
+          &raquo; <b>Plumbul</b> este toxic pentru organismul uman,unde ajunge pe cale digestivă şi respiratorie,fiind reţinut
+          în
+          cortexul renal,în ficat şi în oase.Provoacă saturnismul(oboseală mare, slăbiciune, vărsături, cefalee,
+          tulburări
+          nervoase şi renale, nefropatie cronică etc.).<br>
+          &raquo; <b>Mercurul</b> se concentrează în special în cereale sub formă de metilmercur(insecticid) ,dar poate să se
+          găsească şi
+          în apa contaminată, în alimente,în săruri şi în aer. Ingerarea de compuşi organici (tip HgCl<sub>2</sub>) are ca efecte
+          imediate arsuri în gură şi faringe, colici, vărsături, diaree, anxietate, dupa care se instalează insuficienţă
+          renală.<br>
+          &raquo; <b>Zincul</b> este un poluant frecvent al apelor şi sedimentelor,fiind un component important al apelor
+          uzate.Întreprinderile care se ocupă cu producerea de materiale conţinând zinc, se constituie în posibili
+          poluanţi. Peste pragul toxic, zincul alterează gustul apei . Valorile nu depăşesc concentraţiile admise.<br>
+          &raquo; <b>Cuprul</b> în concentraţii prea ridicate în apă e toxic. A făcut victime în Germania.El nu
+          se
+          bioacumulează în organismul uman. Poate proveni din ţevile de cupru, care sunt atacate de apele moi sau
+          acide.<br>
+          &raquo; <b>Aluminiul</b> consumat în cantităţi mari,prin intermediul apei subterane contaminate, sărurile de aluminiu
+          pot duce
+          la o concentrare a aluminiului în ficat, creier (demenţe senile precoce), inimă, oase şi măduva
+          osoasă.Provoacă
+          encefalopatii mortale, anemii, astm bronşic şi iritaţii gastrointestinale.<br>
+          &raquo; <b>Fierul</b> este un element cu largă răspândire în natură, concentraţii importante de fier întâlnindu-se în mod
+          natural în ape de suprafaţă, soluri, sedimente etc. Utilizarea sa pe scară largă în industrie duce la prezenţa
+          sa frecventă ca component al apelor uzate.<br>
+          &raquo; <b>Cianurile de sodiu şi potasiu.</b> Ionul cianic legat de anumiţi ioni metalici reprezintă o otravă
+          puternică
+          ce acţionează prin blocarea respiraţiei celulare.
+
+        </p>
+        <img class="image-center" style="width:25%" src="gif/balta.gif">
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="page-footer blue pt-4" style="color:white; background-color:#2196f3">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="div-center">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">PROFESORI COORDONATORI</h5>
+          <p>Informatică: - Tufescu Lăcramioara<br>
+            Chimie: - Popa Lăcramioara
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col div-center">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">REFERINȚE</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.worldwaterday.org/" class="noTextDecoration"
+                style="color:#00004d !important;">WATERDAY</a>
+            </li>
+            <li>
+              <a href="https://docs.wixstatic.com/ugd/be57d6_97172165aff84ad4949d1d9ce1240acf.pdf"
+                class="noTextDecoration" style="color:#00004d !important;">O MICĂ ENCICLOPEDIE A
+                APEI</a>
+            </li>
+            <li>
+              <a href="http://bit.do/eSBBX" class="noTextDecoration" style="color:#00004d !important;">POLUAREA APELOR
+                CU METALE GRELE</a>
+            </li>
+            <li>
+              <a href="https://www.apavital.ro/content.aspx?item=1481&lang=RO" class="noTextDecoration"
+                style="color:#00004d !important;">ISTORIA APEI LA IAȘI</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color:rgba(255,255,255,.6); background-color:rgba(0,0,0,.2)">
+      Proiect realizat de:<br>
+      - Mațcu-Zbranca Beatrice<br>
+      - Racu Diana<br>
+      - Regatun Octavian
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+</body>
+
+</html>

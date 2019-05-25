@@ -1,0 +1,50 @@
+html {
+  /* scroll-behavior: smooth; */
+}
+
+.font1{
+  font-family: "Montserrat", sans-serif;
+}
+
+.font2{
+  font-family: "Ubuntu", sans-serif;
+}
+
+.noTextDecoration{
+  text-decoration: none !important;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.div-center {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.culoareGri{
+  color: rgb(200,200,200) !important;
+}
+
+.image-center{
+    display: block;
+    margin: 0 auto;
+}
+
+.bg-lighter{
+  background-color: rgb(225,225,225);
+}
+
+nav{
+  background-image: url("../img/navbar.jpg");
+}
+
+h1 .noTextDecoration{
+  color:rgb(225,225,225);
+}
